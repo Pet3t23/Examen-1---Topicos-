@@ -1,9 +1,5 @@
 #include <iostream>
 
-/**
- * @brief Función para calcular la matriz transpuesta de una matriz dada.
- * @param matrix La matriz de entrada que se transpondrá.
- */
 void transposeMatrix(int matrix[3][3]) {
     int temp;
 
@@ -16,10 +12,6 @@ void transposeMatrix(int matrix[3][3]) {
     }
 }
 
-/**
- * @brief Función para imprimir una matriz.
- * @param matrix La matriz que se imprimirá.
- */
 void printMatrix(int matrix[3][3]) {
     for (int i = 0; i < 3; ++i) {
         for (int j = 0; j < 3; ++j) {
